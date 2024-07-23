@@ -32,11 +32,11 @@ Description : ${i.desc}\`\`\``
       let runtime = clockString(currentTime - botStartTime);
 
       let menu = `╭───❮ *${BOT_NAME}* ❯
-│ *ᴏᴡɴᴇʀ* :  ${OWNER_NAME}
-│ *ᴘʀᴇғɪx* : ${prefix}
-│ *ᴘʟᴀᴛғᴏʀᴍ* : ${hostname().split("-")[0]}
-│ *ᴘʟᴜɢɪɴs* : ${events.commands.length} 
-│ *ʀᴜɴᴛɪᴍᴇ* : ${runtime} 
+│ *𝐍αꭑ𝖾* :  ${OWNER_NAME}
+│ *𝐏𝗋𝖾𝖿𝗂𝗑* : ${prefix}
+│ *𝐏ᥣα𝗍𝖿ⱺ𝗋ꭑ* : ${hostname().split("-")[0]}
+│ *𝐏ᥣυ𝗀𝗂𐓣𝗌* : ${events.commands.length} 
+│ *𝐑υ𐓣𝗍𝗂ꭑ𝖾* : ${runtime} 
 ╰─────────────⦁\n`;
       let cmnd = [];
       let cmd;
@@ -73,7 +73,7 @@ Description : ${i.desc}\`\`\``
 
       menu += ``;
       return await message.client.sendMessage(message.jid, {
-        image: { url: `https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg` },
+        image: { url: `https://i.ibb.co/cT9k3zL/IMG-20240723-150359-330.jpg` },
         caption: tiny(menu),
         footer: tiny(
           `Phoenix-MD\nVersion : ${require("../package.json").version}`
